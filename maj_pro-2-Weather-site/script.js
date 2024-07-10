@@ -13,7 +13,7 @@ async function checkWeather(city)
     console.log(res);
     if(res.status!=200)
     {
-        alert("The requested location is not available, Please check the spelling or try a different location.");
+        alert("The requested location is not available. Please check the spelling or try a different location.");
         return;
     }
     else
